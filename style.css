@@ -11,8 +11,8 @@
   --persianBlue: hsla(241, 72%, 46%, 0);
   --bg-lightRed: hsla(0, 100%, 67%, 0.1);
   --bg-orangeyYellow: hsl(39, 100%, 56%, 0.1);
-  --bg-greenTeal: hsl(166, 100%, 37%, 0.1);
-  --bg-lightLavender: hsla(241, 100%, 89%, 0.1);
+  --bg-greenTeal: hsla(166, 100%, 37%, 0.1);
+  --bg-cobaltBlue: hsla(234, 85%, 45%, 0.1);
   /* ### Neutral ### */
   --white: hsl(0, 0%, 100%);
   --paleBlue: hsl(221, 100%, 96%);
@@ -155,7 +155,7 @@ body {
   color: var(--greenTeal);
 }
 .ability-wrapper.visual {
-  background-color: var(--bg-lightLavender);
+  background-color: var(--bg-cobaltBlue);
 }
 .ability-wrapper.visual h3 {
   color: var(--cobaltBlue);
@@ -213,9 +213,6 @@ body {
 }
 /* --- MEDIA QUERY ---  */
 @media screen and (min-width: 750px) {
-  body {
-    height: 100vh;
-  }
   .main-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -252,6 +249,7 @@ body {
     height: 100%;
   }
   .main__second-content__title h1 {
+    color: var(--darkGrayBlue);
     font-size: 2.4rem;
   }
   .main__second-abilities {
